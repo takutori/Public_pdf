@@ -1,0 +1,86 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"latex_temp":{
+		"prefix": "latex_temp",
+		"body":[
+			"\\documentclass[11pt, oneside]{article}",
+			"\\usepackage{amsfonts}",
+			"\\usepackage{amscd}",
+			"\\usepackage{amssymb}",
+			"\\usepackage{hyperref}",
+			"\\usepackage{color}",
+
+			"\\usepackage{array}",
+			"\\newcolumntype{C}[1]{>{\\centering\\let\\newline\\\\arraybackslash\\hspace{0pt}}m{#1}}",
+			"\\newcolumntype{L}[1]{>{\\raggedright\\let\newline\\\\arraybackslash\\hspace{0pt}}m{#1}}",
+
+			"\\usepackage{amsthm}",
+			"\\usepackage{amsmath}",
+			"\\usepackage{mathrsfs}",
+			"\\usepackage{examplep}",
+			"\\usepackage{mdframed}",
+			"\\usepackage{graphicx}",
+			"\\usepackage{geometry}",
+			"\\geometry{letterpaper}",
+			"\\usepackage{amssymb}",
+			"\\usepackage{bm}",
+			"\\usepackage{xeCJK}",
+			"%\\usepackage[dviout]{graphicx}",
+
+
+
+			"\\newtheorem{thm}{íËóù}[section]",
+			"\\newtheorem{lemma}[thm]{ï‚ëË}",
+			"\\newtheorem{prop}[thm]{ñΩëË}",
+			"\\newtheorem{cor}[thm]{êÑò_}",
+			"\\theoremstyle{definition}",
+			"\\newtheorem*{defn}{íËã`}",
+			"\\newtheorem{remark}[thm]{íçà”}",
+			"\\newtheorem{example}{ó·ëË}",
+			"\\newtheorem{problem}{ñ‚ëË}",
+
+
+
+
+			"\\setCJKmainfont{ipaexm.ttf}",
+			"\\title{SAMPLE CODE}",
+			"\\author{TANIGUCHI Taichi}",
+
+			"\\begin{document}",
+			"\\maketitle",
+			"\\tableofcontents",
+
+			"$1",
+
+
+
+
+
+
+
+
+
+
+			"\\end{document}",
+
+
+
+
+
+		],
+		"out put latex templete"
+	}
+}
